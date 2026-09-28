@@ -1,0 +1,19 @@
+{
+  "name": "cse-pyq-hub-server",
+  "version": "1.0.0",
+  "description": "Backend server for CSE PYQ HUB - P. R. Pote Patil College of Engineering & Management, Amravati",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
